@@ -1,3 +1,101 @@
 page-home {
 
+    .main{
+        background-color: #75dfb9;
+    }
+
+    .header{
+        background-color: #1d202b;
+        width: 100%;
+    }
+    
+    .header h1{
+        color: white;
+        padding: 0.5em;
+        font-family: 'Bebas';
+        margin-left: 4.5em;
+    }
+
+    .content{
+        width: 95%;
+        margin-left: 0.5em;
+    }
+
+    .content input{
+        padding: 0.5em;
+        width: 100%;
+        font-family: 'Avenir Next Condensed';
+    }
+
+    .box1{
+        margin-top: 1em;
+        background-color: #1d202b;
+        height: 100%;
+    }
+
+    .box1 h2{
+        color: #75dfb9;
+        padding-left: 0.5em;
+        padding-top: 0.5em;
+        font-family: 'Avenir Next Condensed';
+        font-weight: bold;
+    }
+
+    .box1 p{
+        padding-left: 1em;
+        color: #b8b8b8;
+    }
+
+    .box2{
+        margin-top: 1em;
+        background-color: #1d202b;
+        height: 100%;
+    }
+
+    .box2 h2{
+        color: #75dfb9;
+        margin-top: 10em;
+        padding-left: 0.5em;
+        padding-top: 0.5em;
+        font-family: 'Avenir Next Condensed';
+        font-weight: bold;
+    }
+
+    .box2 p{
+        padding-left: 1em;
+        color: #b8b8b8;
+    }
+
+    .date{
+        background-color: #2F3341;
+        padding: 0.25em;
+        color: #75dfb9;
+        font-family: 'Avenir Next Condensed';
+        font-weight: medium;
+        text-align: right;
+    }
+
+    .eventInfo{
+        width: 65%;
+        float: left;
+    }
+
+    .eventDate{
+        height: 100%;
+        font-family: 'Avenir Next Condensed';
+        font-size: 5em;
+        font-weight: bold;
+        color: #75dfb9;
+        width: 30%;
+        float: right;
+        margin-bottom: 2em;
+        border-left: 1px solid #b8b8b8;
+        padding-left: 0.15em;
+    }
+
+    textarea{
+        font-family: 'Avenir Next Condensed';
+        
+    }
+
 }
