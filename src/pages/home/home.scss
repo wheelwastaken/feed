@@ -1,9 +1,7 @@
 page-home {
-
     .main{
         background-color: #75dfb9;
     }
-
     .header{
         background-color: #1d202b;
         width: 100%;
@@ -15,24 +13,21 @@ page-home {
         font-family: 'Bebas';
         margin-left: 4.5em;
     }
-
     .content{
         width: 95%;
         margin-left: 0.5em;
     }
-
     .content input{
         padding: 0.5em;
         width: 100%;
         font-family: 'Avenir Next Condensed';
     }
-
     .box1{
+        min-height: 100px;
         margin-top: 1em;
         background-color: #1d202b;
-        width: 100%;
+        // height: 100%;
     }
-
     .box1 h2{
         color: #75dfb9;
         padding-left: 0.5em;
@@ -40,18 +35,15 @@ page-home {
         font-family: 'Avenir Next Condensed';
         font-weight: bold;
     }
-
     .box1 p{
         padding-left: 1em;
         color: #b8b8b8;
     }
-
     .box2{
         margin-top: 1em;
         background-color: #1d202b;
-        width: 100%;
+        height: 100%;
     }
-
     .box2 h2{
         color: #75dfb9;
         margin-top: 10em;
@@ -60,37 +52,89 @@ page-home {
         font-family: 'Avenir Next Condensed';
         font-weight: bold;
     }
-
     .box2 p{
         padding-left: 1em;
         color: #b8b8b8;
     }
-
     .date{
         background-color: #2F3341;
         padding: 0.25em;
         color: #75dfb9;
         font-family: 'Avenir Next Condensed';
         font-weight: medium;
+    }
+
+    .date span{
         text-align: right;
+        margin-left: 6.5em;
+    }
+
+    .date button{
+        background-color: #2F3341;
+        color: #75dfb9;
+        padding: 0.5em 1em;
+        margin-right: 0.5em;
+    }
+
+    .date button:active{
+        background-color: #75dfb9;
+        color: #2F3341;
+    }
+
+    .bottomBar{
+        background-color: #2F3341;
+        padding: 0.25em;
+        color: #75dfb9;
+        font-family: 'Avenir Next Condensed';
+        font-weight: medium;
+    }
+
+    .bottomBar button{
+        background-color: #2F3341;
+        color: #75dfb9;
+        padding: 0.5em 1em;
+    }
+
+    .bottomBar button:active{
+        background-color: #75dfb9;
+        color: #2F3341;
     }
 
     .eventInfo{
-        width: 65%;
+        // width: 65%;
         float: left;
     }
 
     .eventDate{
         height: 100%;
         font-family: 'Avenir Next Condensed';
-        font-size: 5em;
+        font-size: 1em;
         font-weight: bold;
         color: #75dfb9;
-        width: 30%;
+        // width: 30%;
+        float: right;
+        border-left: 1px solid #b8b8b8;
+        padding-left: 0.15em;
+        padding-right: 0.15em;
+        text-align: center;
+    }
+
+    .dateNum{
+        font-size: 3em;
+    }
+
+    .eventTime{
+        height: 100%;
+        font-family: 'Avenir Next Condensed';
+        font-weight: bold;
+        font-size: 1.25em;
+        color: #75dfb9;
         float: right;
         margin-bottom: 2em;
         border-left: 1px solid #b8b8b8;
-        padding-left: 0.15em;
+        padding-left: 1em;
+        padding-right: 0.15em;
+        text-align: center;
     }
 
     textarea{
@@ -98,4 +142,43 @@ page-home {
         
     }
 
+    .buttons{
+        margin-left: 2.25em;
+        width: 68.3%;
+        list-style-type: none;
+    }
+
+    .leftButton{
+        background-color: #1d202b;
+        color: #75dfb9;
+        font-family: 'Avenir Next Condensed';
+        font-size: 1.5em;
+        padding: 0.5em;
+        float: left;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border: 1.5px solid #b8b8b8;
+    }
+
+    .leftButton:active{
+        background-color: #75dfb9;
+        color: #1d202b;
+    }
+
+    .rightButton:active{
+        background-color: #75dfb9;
+        color: #1d202b;
+    }
+
+    .rightButton{
+        background-color: #1d202b;
+        color: #75dfb9;
+        font-family: 'Avenir Next Condensed';
+        font-size: 1.5em;
+        padding: 0.5em;
+        float: right;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: 1.5px solid #b8b8b8;
+    }
 }
